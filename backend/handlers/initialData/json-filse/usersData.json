@@ -1,0 +1,26 @@
+{
+    "users": [
+        {
+            "_id": "648fdb8b2f8e4c3e9b37613c",
+            "fullName": "Adir",
+            "email": "adir@gmail.com",
+            "password": "11413365",
+            "role":"admin"
+          },
+      {
+        "_id": "648fdb8b2f8e4c3e9b37613d",
+        "fullName": "Nem",
+        "email": "nem@gmail.com", 
+        "password": "11413365"
+      },
+
+
+      {
+        "_id": "648fdc123abc4f5e8c987abc",
+        "fullName": "John Doe",
+        "email": "john.doe@gmail.com",
+        "password": "password123"
+      }
+    ]
+  }
+  

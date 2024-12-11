@@ -1,0 +1,14 @@
+Time: 12/7/2024, 11:39:20 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 17ms
+Error Msg: Not Found
+
+Time: 12/7/2024, 11:39:27 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 2ms
+Error Msg: Not Found
+

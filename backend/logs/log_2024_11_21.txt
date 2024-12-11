@@ -1,0 +1,21 @@
+Time: 11/21/2024, 9:41:11 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 9ms
+Error Msg: Not Found
+
+Time: 11/21/2024, 9:41:23 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 14ms
+Error Msg: Not Found
+
+Time: 11/21/2024, 10:10:20 AM
+Method: POST
+Route: /users/signup
+Status: 500
+Duration: 1020ms
+Error Msg: Internal Server Error
+

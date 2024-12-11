@@ -1,0 +1,229 @@
+{
+    "recipes": [
+      {
+        "title": "Spaghetti Carbonara",
+        "description": "A classic Italian pasta dish with a creamy sauce.",
+        "ingredients": [
+          { "name": "Spaghetti", "quantity": "400g" },
+          { "name": "Pancetta", "quantity": "150g" },
+          { "name": "Eggs", "quantity": "3 large" },
+          { "name": "Parmesan cheese", "quantity": "1 cup" },
+          { "name": "Garlic", "quantity": "2 cloves" },
+          { "name": "Black pepper", "quantity": "to taste" }
+        ],
+        "instructions": "Cook spaghetti until al dente. In a separate pan, fry pancetta with garlic. Whisk eggs with Parmesan cheese. Combine everything and season with black pepper.",
+        "time": {
+          "prep": 10,
+          "cook": 20,
+          "total": 30
+        },
+        "servings": 4,
+        "difficulty": "medium",
+        "tags": ["dinner", "pasta", "Italian"],
+        "imageUrl": "https://i.pinimg.com/236x/35/92/93/35929372adf3da0198ab4f2d8c58267d.jpg",
+        "nutritionInfo": {
+          "calories": 580,
+          "protein": 22,
+          "carbs": 45,
+          "fat": 30
+        },
+        "createdBy": "648fdb8b2f8e4c3e9b37613d"
+      },
+      {
+        "title": "Margherita Pizza",
+        "description": "A classic pizza with tomato, mozzarella, and basil.",
+        "ingredients": [
+          { "name": "Pizza dough", "quantity": "1 ball" },
+          { "name": "Tomato sauce", "quantity": "1/2 cup" },
+          { "name": "Mozzarella cheese", "quantity": "200g" },
+          { "name": "Fresh basil leaves", "quantity": "to taste" },
+          { "name": "Olive oil", "quantity": "2 tbsp" }
+        ],
+        "instructions": "Spread tomato sauce on dough, top with mozzarella and basil. Bake until crust is golden.",
+        "time": {
+          "prep": 15,
+          "cook": 10,
+          "total": 25
+        },
+        "servings": 2,
+        "difficulty": "easy",
+        "tags": ["dinner", "pizza", "Italian"],
+        "imageUrl": "https://i.pinimg.com/236x/9d/2f/62/9d2f62b46c1a23bd26df0d455c3a388f.jpg",
+        "nutritionInfo": {
+          "calories": 700,
+          "protein": 25,
+          "carbs": 60,
+          "fat": 30
+        },
+        "createdBy": "648fdb8b2f8e4c3e9b37613d"
+      },{
+        "title": "Chicken Caesar Salad",
+        "description": "A healthy salad with crispy romaine lettuce, grilled chicken, and Caesar dressing.",
+        "ingredients": [
+          { "name": "Romaine lettuce", "quantity": "1 head" },
+          { "name": "Grilled chicken breast", "quantity": "200g" },
+          { "name": "Croutons", "quantity": "1 cup" },
+          { "name": "Parmesan cheese", "quantity": "1/4 cup" },
+          { "name": "Caesar dressing", "quantity": "1/3 cup" }
+        ],
+        "instructions": "Chop romaine lettuce and mix with grilled chicken slices, croutons, and Caesar dressing. Top with Parmesan cheese.",
+        "time": {
+          "prep": 10,
+          "cook": 15,
+          "total": 25
+        },
+        "servings": 2,
+        "difficulty": "easy",
+        "tags": ["lunch", "salad", "healthy"],
+        "imageUrl": "https://i.pinimg.com/236x/8b/4b/57/8b4b572bf57fb9315fe3d502f68d7500.jpg",
+        "nutritionInfo": {
+          "calories": 450,
+          "protein": 35,
+          "carbs": 20,
+          "fat": 25
+        },
+        "createdBy":"648fdb8b2f8e4c3e9b37613c"
+      },
+      {
+        "title": "Vegetable Stir Fry",
+        "description": "A quick and colorful dish packed with fresh vegetables and a savory sauce.",
+        "ingredients": [
+          { "name": "Broccoli", "quantity": "200g" },
+          { "name": "Carrot", "quantity": "1 large" },
+          { "name": "Bell pepper", "quantity": "1 medium" },
+          { "name": "Soy sauce", "quantity": "2 tbsp" },
+          { "name": "Garlic", "quantity": "2 cloves" }
+        ],
+        "instructions": "Heat oil in a wok, sauté garlic, and stir-fry vegetables. Add soy sauce and cook for 5 minutes.",
+        "time": {
+          "prep": 10,
+          "cook": 10,
+          "total": 20
+        },
+        "servings": 2,
+        "difficulty": "easy",
+        "tags": ["vegetarian", "dinner", "quick"],
+        "imageUrl": "https://i.pinimg.com/236x/71/11/af/7111af29acbcb51cb084ea66e3b3db69.jpg",
+        "nutritionInfo": {
+          "calories": 150,
+          "protein": 4,
+          "carbs": 12,
+          "fat": 8
+        },
+        "createdBy":"648fdb8b2f8e4c3e9b37613c"
+      },
+      {
+        "title": "Beef Tacos",
+        "description": "Mexican-style beef tacos with seasoned ground beef, fresh toppings, and soft tortillas.",
+        "ingredients": [
+          { "name": "Ground beef", "quantity": "250g" },
+          { "name": "Taco seasoning", "quantity": "2 tbsp" },
+          { "name": "Tortillas", "quantity": "6 small" },
+          { "name": "Lettuce", "quantity": "1 cup" },
+          { "name": "Tomato", "quantity": "1 medium" }
+        ],
+        "instructions": "Cook ground beef with taco seasoning. Fill tortillas with beef and top with lettuce, tomato, and other desired toppings.",
+        "time": {
+          "prep": 10,
+          "cook": 15,
+          "total": 25
+        },
+        "servings": 3,
+        "difficulty": "medium",
+        "tags": ["dinner", "Mexican", "tacos"],
+        "imageUrl": "https://i.pinimg.com/236x/66/6c/2b/666c2b4f1752915dd14d21e3f652c083.jpg",
+        "nutritionInfo": {
+          "calories": 340,
+          "protein": 18,
+          "carbs": 25,
+          "fat": 18
+        },
+        "createdBy": "648fdb8b2f8e4c3e9b37613d"
+      },
+      {
+        "title": "Lemon Herb Grilled Salmon",
+        "description": "Juicy grilled salmon fillets seasoned with lemon and fresh herbs.",
+        "ingredients": [
+          { "name": "Salmon fillets", "quantity": "2 pieces" },
+          { "name": "Lemon juice", "quantity": "2 tbsp" },
+          { "name": "Olive oil", "quantity": "1 tbsp" },
+          { "name": "Garlic", "quantity": "2 cloves" },
+          { "name": "Fresh dill", "quantity": "2 tbsp" }
+        ],
+        "instructions": "Combine lemon juice, olive oil, minced garlic, and dill. Marinate salmon for 15 minutes. Grill over medium heat for 6 minutes per side or until fully cooked.",
+        "time": {
+          "prep": 15,
+          "cook": 12,
+          "total": 27
+        },
+        "servings": 2,
+        "difficulty": "medium",
+        "tags": ["dinner", "seafood", "healthy"],
+        "imageUrl": "https://i.pinimg.com/236x/48/f7/f2/48f7f2d5c32c78d5bac93d574d070e56.jpg",
+        "nutritionInfo": {
+          "calories": 320,
+          "protein": 30,
+          "carbs": 2,
+          "fat": 22
+        },
+        "createdBy":"648fdb8b2f8e4c3e9b37613c"
+      },
+      {
+        "title": "Chocolate Chip Cookies",
+        "description": "Soft and chewy cookies loaded with chocolate chips.",
+        "ingredients": [
+          { "name": "All-purpose flour", "quantity": "2 cups" },
+          { "name": "Butter", "quantity": "1/2 cup" },
+          { "name": "Sugar", "quantity": "3/4 cup" },
+          { "name": "Eggs", "quantity": "2 large" },
+          { "name": "Chocolate chips", "quantity": "1 cup" }
+        ],
+        "instructions": "Cream butter and sugar, add eggs, mix in flour, and fold in chocolate chips. Bake at 180°C for 10 minutes.",
+        "time": {
+          "prep": 15,
+          "cook": 10,
+          "total": 25
+        },
+        "servings": 12,
+        "difficulty": "easy",
+        "tags": ["dessert", "baking", "cookies"],
+        "imageUrl": "https://i.pinimg.com/236x/14/56/a5/1456a58b1f9695682f7c4ca4e94aaa54.jpg",
+        "nutritionInfo": {
+          "calories": 200,
+          "protein": 3,
+          "carbs": 27, 
+          "fat": 9
+        },
+        "createdBy": "648fdb8b2f8e4c3e9b37613d"
+      },
+      {
+        "title": "Blueberry Pancakes",
+        "description": "Fluffy pancakes bursting with fresh blueberries.",
+        "ingredients": [
+          { "name": "All-purpose flour", "quantity": "1 cup" },
+          { "name": "Milk", "quantity": "1 cup" },
+          { "name": "Egg", "quantity": "1 large" },
+          { "name": "Blueberries", "quantity": "1/2 cup" },
+          { "name": "Baking powder", "quantity": "1 tsp" }
+        ],
+        "instructions": "In a bowl, mix flour and baking powder. Whisk in milk and egg until smooth. Gently fold in blueberries. Cook pancakes on a hot griddle for 2 minutes per side or until golden. Serve with syrup.",
+        "time": {
+          "prep": 10,
+          "cook": 10,
+          "total": 20
+        },
+        "servings": 4,
+        "difficulty": "easy",
+        "tags": ["breakfast", "dessert", "quick"],
+        "imageUrl": "https://i.pinimg.com/474x/b6/80/16/b680167755c9e345936492f1502af6c5.jpg",
+        "nutritionInfo": {
+          "calories": 220,
+          "protein": 6,
+          "carbs": 34,
+          "fat": 6
+        }
+        ,"createdBy":"648fdb8b2f8e4c3e9b37613c"
+      }
+    ]
+  }
+  

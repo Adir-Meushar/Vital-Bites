@@ -1,0 +1,217 @@
+Time: 11/25/2024, 10:15:28 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 81ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 10:15:32 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 92ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 10:15:32 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 81ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 10:15:41 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 11/25/2024, 10:15:54 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 1ms
+Error Msg: Not Found
+
+Time: 11/25/2024, 4:59:31 PM
+Method: POST
+Route: /recipe
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 4:59:37 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 8ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 5:00:14 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 9ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 5:01:29 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 10ms
+Error Msg: Bad Request
+
+Time: 11/25/2024, 5:02:05 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 9ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 6:28:58 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 78ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 6:29:02 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 85ms
+Error Msg: Unauthorized
+
+Time: 11/25/2024, 6:40:50 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 6:40:52 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 5ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 6:40:53 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 4ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 6:40:54 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 4ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 6:48:09 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 7:55:14 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 7ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 7:55:16 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 4ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 7:55:17 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 7:56:06 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 4ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 8:15:30 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 11/25/2024, 8:15:32 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 11/25/2024, 8:17:38 PM
+Method: POST
+Route: /recipe
+Status: 400
+Duration: 27ms
+Error Msg: Bad Request
+
+Time: 11/25/2024, 8:28:51 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 5ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 8:32:35 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 8:34:09 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 8:36:14 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 5ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 8:36:23 PM
+Method: GET
+Route: /recipe/my-recipes/undefined
+Status: 403
+Duration: 7ms
+Error Msg: Forbidden
+
+Time: 11/25/2024, 9:31:22 PM
+Method: GET
+Route: /recipe/favorite-recipes/674491ac263d99675ff0cd09
+Status: 404
+Duration: 4ms
+Error Msg: Not Found
+
+Time: 11/25/2024, 9:31:28 PM
+Method: GET
+Route: /recipe/favorite-recipes/674491ac263d99675ff0cd09
+Status: 404
+Duration: 2ms
+Error Msg: Not Found
+

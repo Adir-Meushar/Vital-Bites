@@ -1,0 +1,14 @@
+Time: 11/10/2024, 2:54:47 PM
+Method: POST
+Route: /recipe
+Status: 401
+Duration: 32ms
+Error Msg: Unauthorized
+
+Time: 11/10/2024, 2:55:21 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+

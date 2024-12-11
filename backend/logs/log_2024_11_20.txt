@@ -1,0 +1,14 @@
+Time: 11/20/2024, 5:13:16 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 31ms
+Error Msg: Bad Request
+
+Time: 11/20/2024, 5:13:29 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 43ms
+Error Msg: Bad Request
+

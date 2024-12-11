@@ -1,0 +1,77 @@
+Time: 11/23/2024, 9:22:07 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 28ms
+Error Msg: Not Found
+
+Time: 11/23/2024, 9:22:20 AM
+Method: GET
+Route: /
+Status: 404
+Duration: 3ms
+Error Msg: Not Found
+
+Time: 11/23/2024, 9:22:51 AM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 9ms
+Error Msg: Bad Request
+
+Time: 11/23/2024, 9:22:52 AM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 11/23/2024, 12:55:22 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 1ms
+Error Msg: Bad Request
+
+Time: 11/23/2024, 12:55:23 PM
+Method: POST
+Route: /users/signup
+Status: 400
+Duration: 1ms
+Error Msg: Bad Request
+
+Time: 11/23/2024, 3:50:27 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 86ms
+Error Msg: Unauthorized
+
+Time: 11/23/2024, 3:50:28 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+Error Msg: Unauthorized
+
+Time: 11/23/2024, 4:29:45 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 83ms
+Error Msg: Unauthorized
+
+Time: 11/23/2024, 5:28:21 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 79ms
+Error Msg: Unauthorized
+
+Time: 11/23/2024, 5:28:27 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 81ms
+Error Msg: Unauthorized
+
