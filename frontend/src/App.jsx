@@ -7,6 +7,7 @@ import CenteredLayout from './components/centeredLayout/CenteredLayout';
 import ToastMessage from './components/toastMessage/ToastMessage';
 import { useNavigate } from 'react-router-dom';
 import Footer from './components/footer/Footer';
+import CoverImg from './components/cover-img/CoverImg';
 
 
 export const GeneralContext = createContext();
@@ -16,7 +17,10 @@ function App() {
   const [signupModal, setSignModal] = useState(false);
   const [user, setUser] = useState(null);
   const [recipes, setRecipes] = useState([]);
-  const [gridLoader, setGridLoader] = useState(false)
+  const [myFavorite,setMyFavorite]=useState([]);
+  const [myRecipes, setMyRecipes]=useState([]);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [gridLoader, setGridLoader] = useState(false);
   const [showToast, setShowToast] = useState(false);
   const [toastMessage, setToastMessage] = useState('')
   const [toastBgColor, setToastBgColor] = useState('');
@@ -78,10 +82,13 @@ function App() {
   return (
     <GeneralContext.Provider value={{
       loginModal, setLoginModal, signupModal, setSignModal,
-       user, setUser, showToastMessage, recipes, setRecipes,gridLoader, setGridLoader
+       user, setUser, showToastMessage, 
+       recipes, setRecipes,myFavorite,setMyFavorite,
+       myRecipes, setMyRecipes,gridLoader, setGridLoader,searchQuery,setSearchQuery
     }}>
       <CenteredLayout>
         <Navbar />
+        <CoverImg/>
         <Router />
         <Footer />
         {showToast && <ToastMessage message={toastMessage} bgColor={toastBgColor} visible={showToast} />}

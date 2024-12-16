@@ -1,0 +1,63 @@
+Time: 12/13/2024, 2:34:38 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:38 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:41 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:41 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:45 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 1ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:47 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 2:34:48 PM
+Method: PATCH
+Route: /recipe/favorite/675a949c83505513357bef56
+Status: 401
+Duration: 1ms
+Error Msg: Unauthorized
+
+Time: 12/13/2024, 9:47:29 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 6ms
+Error Msg: Not Found
+
+Time: 12/13/2024, 9:47:35 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 1ms
+Error Msg: Not Found
+

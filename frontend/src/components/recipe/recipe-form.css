@@ -1,0 +1,156 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* .modal-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+   */
+.new-recipe-container {
+    position: relative;
+    max-width: 600px;
+    max-height: 80vh;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    overflow: auto;
+    animation: slide-up 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.new-recipe-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.new-recipe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.new-recipe-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+}
+
+.new-recipe-form input,
+.new-recipe-form textarea,
+.new-recipe-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.new-recipe-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.new-recipe-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.new-recipe-form button:hover {
+    background-color: #218838;
+}
+
+.ingredient-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ingredient-row input {
+    flex: 1;
+}
+
+.ingredient-row button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.ingredient-row button:hover {
+    background-color: #c82333;
+}
+
+.time-inputs,
+.nutrition-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.time-inputs input,
+.nutrition-inputs input {
+    flex: 1;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: #f1f1f1;
+    color: #c00;
+}
+
+.close-btn:focus {
+    outline: none;
+}
+@keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

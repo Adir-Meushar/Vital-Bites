@@ -1,11 +1,12 @@
 import { useContext, useEffect, useState } from "react";
 import { GeneralContext } from "../../App";
 import RecipeCard from "./RecipesCard";
+import NewRecipe from "./NewRecipe";
 
 function MyRecipes() {
-    const [myRecipes, setMyRecipes] = useState([])
+    const [newRecipe, setNewRecipe] = useState(false)
 
-    const { user } = useContext(GeneralContext);
+    const { user, myRecipes, setMyRecipes } = useContext(GeneralContext);
 
     const fetchMyRecipes = async (userId) => {
 
@@ -37,15 +38,26 @@ function MyRecipes() {
         }
     }, [user]);
 
+    const toggleForm = () => {
+        setNewRecipe(!newRecipe)
+    }
 
     return (
         <>
             <h1>{user?.fullName} Recipe's</h1>
+
             <div className="recipe-container">
                 {myRecipes.map((recipe) => (
                     <RecipeCard key={recipe._id} recipe={recipe} />
                 ))}
             </div>
+
+            <button onClick={toggleForm}>New Recipe</button>
+
+            {
+                newRecipe &&
+                <NewRecipe toggleForm={toggleForm} />
+            }
         </>
 
     )

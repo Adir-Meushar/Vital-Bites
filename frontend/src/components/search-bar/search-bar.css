@@ -1,0 +1,31 @@
+/* SearchBar Component */
+.search-bar {
+    width: 100%;
+    max-width: 400px; /* Limit the size for larger screens */
+    padding: 10px 15px; /* Add padding for a better look */
+    font-size: 16px; /* Slightly larger font for readability */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 25px; /* Rounded edges */
+    outline: none; /* Remove default outline */
+    transition: all 0.3s ease-in-out; /* Smooth transitions for hover and focus */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-bar:focus {
+    border-color: #4CAF50; /* Green border when focused */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    background-color: #f9f9f9; /* Slightly lighter background on focus */
+}
+
+.search-bar::placeholder {
+    color: #aaa; /* Light gray placeholder text */
+    font-style: italic; /* Italic style for placeholders */
+}
+
+/* Center the search bar within its container */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 30px; /* Add spacing around the search bar */
+}

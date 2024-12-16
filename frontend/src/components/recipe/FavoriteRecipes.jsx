@@ -3,8 +3,7 @@ import { GeneralContext } from "../../App";
 import RecipeCard from "./RecipesCard";
 
 function FavoriteRecipes() {
-const [myFavorite,setMyFavorite]=useState([]);
-    const { user } = useContext(GeneralContext);
+    const { user,myFavorite,setMyFavorite } = useContext(GeneralContext);
 
     const fetchMyFavorite = async (userId) => {
 

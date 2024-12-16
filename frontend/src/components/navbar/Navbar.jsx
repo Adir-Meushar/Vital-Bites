@@ -7,6 +7,7 @@ import { GeneralContext } from '../../App';
 import Login from '../../authentication/login/Login';
 import Logout from '../../authentication/logout/Logout';
 import { ImStatsDots } from "react-icons/im";
+import SearchBar from '../search-bar/SearchBar';
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -30,6 +31,9 @@ const Navbar = () => {
 
   return (
     <>
+    <div className='nav-container'>
+
+  
       <nav>
         <Link to="/">
           <img
@@ -50,7 +54,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li> */}
-
+             <SearchBar/>
             {user ? (
               <>
                 <div className='user-box'>
@@ -97,6 +101,7 @@ const Navbar = () => {
           <i id="bar" className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
         </div>
       </nav>
+      </div>
     </>
   );
 };

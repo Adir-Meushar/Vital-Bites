@@ -1,3 +1,15 @@
+.loader-container{
+  position: absolute;
+    left: 37%;
+    bottom: 63%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.loader-container p{
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
 .grid-loader {
     margin: 10px auto;
     border: 8px solid #f3f3f3; /* Light grey */
@@ -5,9 +17,6 @@
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    position: absolute;
-    left: 50%;
-    bottom: 65%;
     animation: spin 2s linear infinite;
   }
   
@@ -15,7 +24,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
-    opacity: 40%;
+    opacity: 20%;
   }
 
   @keyframes spin {

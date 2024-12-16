@@ -1,0 +1,56 @@
+Time: 12/12/2024, 8:37:00 AM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 12/12/2024, 8:37:38 AM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 6ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 9:45:47 AM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 9:46:09 AM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 9:46:47 AM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 23ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 9:46:06 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 5ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 9:46:12 PM
+Method: GET
+Route: /
+Status: 404
+Duration: 2ms
+Error Msg: Not Found
+
+Time: 12/12/2024, 10:32:49 PM
+Method: GET
+Route: /recipe/my-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+

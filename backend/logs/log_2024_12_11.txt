@@ -1,0 +1,21 @@
+Time: 12/11/2024, 10:13:41 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 101ms
+Error Msg: Unauthorized
+
+Time: 12/11/2024, 10:55:11 PM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 6ms
+Error Msg: Not Found
+
+Time: 12/11/2024, 10:55:13 PM
+Method: GET
+Route: /recipe/favorite-recipes/648fdb8b2f8e4c3e9b37613c
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
